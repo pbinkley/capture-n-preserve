@@ -11,7 +11,7 @@ Uses these tools:
 
 Installing
 
-* Install [http://code.google.com/p/wkhtmltopdf/](wkhtmltopdf and wkhtmltoimage). On Ubuntu I used [these instructions](http://avad.hu/t/content/setting-wkthmltopdf-ubuntu-server-1004). (It was written for 10.04 but it worked on my 12.04 installation; the compilation can take hours though). Don't skip the installation of xvfb.
+* Install [wkhtmltopdf and wkhtmltoimage](http://code.google.com/p/wkhtmltopdf/). On Ubuntu I used [these instructions](http://avad.hu/t/content/setting-wkthmltopdf-ubuntu-server-1004). (It was written for 10.04 but it worked on my 12.04 installation; the compilation can take hours though). Don't skip the installation of xvfb. On a Mac, use Homebrew: brew install wkhtmltopdf
 * Install wget. If your distribution doesn't yet include wget 1.14, you'll need to grab the source and compile it from [gnu.org](https://www.gnu.org/software/wget/).
 * Install pngcrush
 
